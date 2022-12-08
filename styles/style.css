@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.day {
+  background-color: blanchedalmond;
+}
+
+.night {
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+
+section {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 20px auto;
+  text-align: center;
+}
+
+i {
+  font-size: 3rem;
+}
+
+article {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+#am-pm {
+  margin: 0 10px;
+}
+
+a {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin-top: 100px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/chronometer.css">
+  </head>
+  <body>
+    <section>
+      <h2>Cronómetro</h2>
+
+      <article id="chronometer">
+        <p id="minutes"></p>
+        <p>:</p>
+        <p id="seconds"></p>
+        <p>:</p>
+        <p id="hundredths"></p>
+      </article>
+
+      <article id="buttons">
+        <button id="button" class="btn" onclick="start()">Iniciar</button>
+        <button id="reset" class="no-btn" onclick="reset()">Reset</button>
+      </article>
+
+      <a href="../index.html">Reloj</a>
+    </section>
+
+    <script src="../js/chronometer.js"></script>
+  </body>
+</html>
